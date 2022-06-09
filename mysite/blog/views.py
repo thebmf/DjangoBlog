@@ -4,7 +4,7 @@ from .forms import CommentForm
 from django.shortcuts import render, get_object_or_404
 
 def post_detail(request, slug):
-    template_name = 'post_detail.html'
+    template_name = 'full-width.html'
     post = get_object_or_404(Post, slug=slug)
     comments = post.comments.filter(active=True)
     new_comment = None
@@ -30,4 +30,4 @@ def post_detail(request, slug):
 
 class PostList(generic.ListView):
     queryset = Post.objects.filter(status=1).order_by('-created_on')
-    template_name = 'index.html'
+    template_name = 'indexx.html'
