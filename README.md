@@ -2,6 +2,7 @@
 
 ## Overview
 This project is a blog which was created for practicing Django, designed and implemented using HTML, CSS. It showcases my skills in front-end development and my proficiency in utilizing Django for backend operations.
+
 Visit the website at [http://django-practice-blog.ru/](http://django-practice-blog.ru/).
 
 
