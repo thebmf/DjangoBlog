@@ -16,15 +16,14 @@ This project is a blog which was created for practicing Django, designed and imp
 ## Local Development
 To set up this project locally:
 ```bash
-   git clone https://github.com/<your-github-username>/anime-blog.git
-   cd anime-blog
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-python manage.py makemigrations
-python manage.py migrate
-python manage.py createsuperuser
-python manage.py collectstatic
-python manage.py runserver
+1. git clone https://github.com/<your-github-username>/anime-blog.git
+2. python -m venv venv
+3. venv\Scripts\activate
+4. pip install -r requirements.txt
+5. python manage.py makemigrations
+6. python manage.py migrate
+7. python manage.py createsuperuser
+8. python manage.py collectstatic
+9. python manage.py runserver
 ```
 
