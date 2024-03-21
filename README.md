@@ -16,7 +16,7 @@ This project is a blog which was created for practicing Django, designed and imp
 ## Local Development
 To set up this project locally:
 ```bash
-1. git clone https://github.com/<your-github-username>/anime-blog.git
+1. git clone https://github.com/thebmf/DjangoBlog.git
 2. python -m venv venv
 3. venv\Scripts\activate
 4. pip install -r requirements.txt
